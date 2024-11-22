@@ -1,0 +1,27 @@
+.container {
+  overflow: auto;
+  margin: 0;
+  width: 100%;
+  display: block !important;
+  color: black;
+}
+
+th,
+table,
+td {
+  border: 1px solid;
+}
+table {
+  width: 100%;
+}
+td {
+  text-align: center;
+}
+td,
+th {
+  width: 15%;
+  padding: 10px;
+}
+.text {
+  width: 55%;
+}

@@ -1,0 +1,44 @@
+.gallery {
+  height: fit-content;
+}
+.sidebar {
+  margin-left: 0px;
+  height: fit-content;
+}
+
+.events h4:hover {
+  color: black;
+}
+
+.imageNewsBox,
+.imageEventsBox {
+  width: 30%;
+  max-width: 30%;
+}
+.newsBoxText,
+.eventsBoxText {
+  width: 70%;
+}
+
+.SwiperItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.mySwiper {
+  height: 500px;
+}
+.slider {
+  width: 100%;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+  .mySwiper {
+    height: 300px;
+    width: 100%;
+  }
+}

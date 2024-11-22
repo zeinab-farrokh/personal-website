@@ -1,0 +1,73 @@
+.adminContainer {
+  display: flex;
+  justify-content: center;
+}
+.adminContainer {
+  min-height: 100vh;
+  margin: 50px 100px;
+}
+
+.adminContainer form {
+  width: 40%;
+  height: fit-content;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.formItem label {
+  margin-bottom: 5px;
+}
+.formItem input {
+  height: 50px;
+  padding: 5px;
+  outline: none;
+}
+textarea {
+  outline: none;
+}
+.formItem textarea {
+  height: 150px;
+  padding: 5px;
+}
+.formItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.adminContainer button {
+  height: 40px;
+  margin-top: 20px !important;
+  border: 0;
+  color: white !important;
+  background-color: #003566 !important;
+}
+.adminContainer button:hover {
+  background-color: #022444 !important;
+  color: #f5ecc2 !important;
+}
+.errorContainer span {
+  color: red;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .adminContainer {
+    margin: 30px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .adminContainer form {
+    width: 100%;
+  }
+}
+@media (min-width: 950px) and (max-width: 1100px) {
+  .adminContainer form {
+    width: 70%;
+  }
+}

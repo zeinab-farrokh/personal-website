@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+}
+.mySwiper {
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+:root {
+  --swiper-navigation-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .swiper-container {
+    width: 950px;
+  }
+}

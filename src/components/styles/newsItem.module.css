@@ -1,0 +1,39 @@
+.newsBox {
+  margin: 10px 0;
+}
+.newsBox {
+  width: 100%;
+}
+.imageNewsBox {
+  width: 30%;
+  max-width: 30%;
+  height: 150px;
+}
+.newsBoxText {
+  width: 70%;
+}
+.layer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.37);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: ease-in 0.2s;
+}
+.imageNewsBox {
+  position: relative;
+}
+.imageNewsBox:hover .layer {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .imageNewsBox {
+    height: 90px;
+  }
+  .newsBoxText h2{
+    font-size: 15px;
+  }
+}

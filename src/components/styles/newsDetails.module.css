@@ -1,0 +1,13 @@
+.container .imgContainer {
+  width: 100%;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media only screen and (min-width: 950px) {
+  .detailsContainer {
+    margin-right: 5px;
+  }
+}

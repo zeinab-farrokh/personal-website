@@ -1,0 +1,29 @@
+.container{
+  height: fit-content;
+}
+.container form {
+  width: 100%;
+}
+.formItem {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.formItem label {
+  margin-bottom: 5px;
+}
+.formItem input {
+  height: 50px;
+  padding: 5px;
+  outline: none;
+  width: 100%;
+}
+.nospinners {
+  -moz-appearance: textfield;
+}
+
+.nospinners::-webkit-outer-spin-button,
+.nospinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

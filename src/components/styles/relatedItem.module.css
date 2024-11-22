@@ -1,0 +1,19 @@
+.relatedBox {
+  margin: 20px 0;
+}
+.related h4:hover {
+  color: black;
+}
+
+.relatedBox {
+  width: 100%;
+}
+
+.imageRelatedBox {
+  width: 30%;
+  max-width: 30%;
+}
+
+.relatedBoxText {
+  width: 70%;
+}

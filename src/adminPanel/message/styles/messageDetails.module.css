@@ -1,0 +1,13 @@
+.detailBtn{
+  height: 40px;
+  margin-top: 20px;
+  border: 0;
+  color: white;
+  background-color: #003566;
+}
+.detailBtn:hover {
+  background-color: #022444;
+}
+
+@media print {
+}

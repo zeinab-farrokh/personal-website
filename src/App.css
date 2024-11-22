@@ -1,0 +1,128 @@
+@font-face {
+  font-family: Vazir;
+  src: url("./assets/fonts/vazir/Vazir-Bold.eot") format("eot"),
+    url("./assets/fonts/vazir/Vazir-Bold.woff") format("woff"),
+    url("./assets/fonts/vazir/Vazir-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("./assets/fonts/vazir/Vazir-Light.eot") format("eot"),
+    url("./assets/fonts/vazir/Vazir-Light.woff2") format("woff2"),
+    url("./assets/fonts/vazir/Vazir-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+
+  direction: rtl;
+  font-family: Vazir;
+}
+body {
+  background-image: url(/images/pattern.png);
+  background-repeat: repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: revert;
+  font-weight: revert;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 15px;
+  color: #4d4d4d;
+}
+p {
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+}
+.boxStyle,
+.boxStyle2 {
+  background-color: white;
+  box-shadow: 0 5px 5px rgba(209, 209, 209, 0.603);
+  padding: 10px;
+}
+.boxStyle {
+  border-radius: 20px;
+}
+.active {
+  color: #ffd60a;
+}
+.btn {
+  height: 40px;
+  margin-top: 20px;
+  border: 0;
+  color: white;
+  background-color: #003566;
+}
+.btn:hover {
+  background-color: #022444;
+}
+.swiper {
+  position: unset !important;
+}
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #022444 !important;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 20px !important;
+  color: #fff !important;
+  justify-content: center;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  width: 27px !important;
+  height: 27px !important;
+  top: 46% !important;
+  background-color: #196fc088;
+  padding: 5px;
+  border-radius: 50%;
+  color: #022444 !important;
+  margin-top: 0 !important;
+  margin: 0 2px;
+}
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 5px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+@media print {
+  .noprint {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 950px) {
+  h2 {
+    font-size: 14px;
+    line-height: 1.7rem;
+  }
+  p {
+    font-size: 0.8rem;
+    line-height: 1.7rem;
+  }
+}

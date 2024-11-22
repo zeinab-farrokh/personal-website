@@ -1,0 +1,34 @@
+.footercontainer {
+  background-color: #003566;
+}
+.container {
+  margin: 0 100px;
+}
+
+.footercontainer li :hover {
+  color: #ffd60a;
+}
+.about {
+  width: 30%;
+}
+
+ul li {
+  margin: 10px 0;
+}
+.container li:first-child,
+.container h3 {
+  color: #ffd60a !important ;
+}
+.container p {
+  cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    margin: 0 30px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .about {
+    width: 100%;
+  }
+}
